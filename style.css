@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
+.page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+.top{
+  height: 5vh;
+  width: 50vw;
+  color: white;
+  z-index: 99;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  gap: 10%;
+  transform: translateX(-40%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top img{
+    width: 5%;
+    height: 60%;
+}
+.page>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    width: 40vw;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page>nav>button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+.page>video{
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page-bottom{
+    height: 20%;
+    width: 25%;
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-bottom>img{
+    width: 100%;
+}
+
+.page-bottom>h3{
+  color: darkgray;
+  margin-bottom: 1vw;
+
+}
+
+.page1{
+     position: relative;
+     height: 100vh;
+     width: 100vw;
+     background-color: whitesmoke;
+}
+
+.page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page1>h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.page2{
+     position: relative;
+     height: 100vh;
+     width: 100vw;
+     background-color: whitesmoke;
+     opacity: 0.8;
+}
+
+.page2>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page2>h1{
+    font-size: 3vw;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.page3{
+     position: relative;
+     height: 100vh;
+     width: 100vw;
+     background-color: whitesmoke;
+     opacity: 0.8;
+}
+
+.page3>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.page3>h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+
+}
+.page4>img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page4-uppr{
+    height: 35%;
+    width: 30%;
+    /* background-color: aqua; */
+    position: absolute;
+    z-index: 9;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page4-uppr>img{
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.inner{
+    height: 50% ;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 35%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vw;
+
+}
+.page4>button{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 1.4vw;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+.page5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+
+}
+.page5>h3{
+    margin-bottom: 1vw ;
+    font-size: 2vw;
+}
+
+.page5>h1{
+    margin-bottom: 1vw;
+    font-size: 4vw;
+}
+.page5>p{
+    font-size: 1.2vw;
+    width: 60%;
+    font-weight: 500;
+    color: #545454c9;
+}
+.page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+.page7>canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+    z-index: 999;
+}
+.page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+.page8>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: gray;
+    z-index: 999;
+    position: absolute;
+}
+.page8>h1>span{
+    color: black;
+    font-weight: 700;
+}
+
+
+.page9{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+.page9>h1{
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: gray;
+    z-index: 999;
+    position: absolute;
+}
+.page9>h1>span{
+    color: black;
+    font-weight: 700;
+}
+
+.page10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+.page10>h1{
+    width: 17%;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: gray;
+    z-index: 999;
+    position: absolute;
+}
+.page10>h1>span{
+    color: black;
+    font-weight: 700;
+}
+.page11{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+.page11>h1{
+    width: 17%;
+    top: 30%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: gray;
+    z-index: 999;
+    position: absolute;
+}
+.page11>h1>span{
+    color: black;
+    font-weight: 700;
+}
+.page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+.page12>h1{
+    width: 17%;
+    top: 40%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: gray;
+    z-index: 999;
+    position: absolute;
+}
+.page12>h1>span{
+    color: black;
+    font-weight: 700;
+}
+.page13{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+.page13>h1{
+    width: 17%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: gray;
+    z-index: 999;
+    position: absolute;
+}
+.page13>h1>span{
+    color: black;
+    font-weight: 700;
+}
+
+.page14{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 6vw;
+    background-color: white;
+}
+.left14{
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/c/images/overview/design/glass_top__k3b8lzqd1l2m_large_2x.jpg) ;
+    background-size: cover;
+    position: relative;
+}
+.right14{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/c/images/overview/design/glass_side__gm4agomrwl2e_large_2x.jpg);
+    background-size: cover;
+}
+
+.page15{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.page15>#troff{
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ width: 50%;
+ z-index: 9;
+}
+
+.page15>#tron{
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ width: 50%;
+}
